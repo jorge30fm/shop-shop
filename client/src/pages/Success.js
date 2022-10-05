@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useMutation } from '@apollo/client';
-import Jumbotron from '../components/Jumbotron.js';
+import Jumbotron from '../components/Jumbotron/index.js';
 import { ADD_ORDER } from '../utils/mutations.js';
 import { idbPromise } from '../utils/helpers.js';
 

@@ -13,7 +13,7 @@ import Detail from "./pages/Detail.js";
 import NoMatch from "./pages/NoMatch.js";
 import Login from "./pages/Login.js";
 import Signup from "./pages/Signup.js";
-import Nav from "./components/Nav.js";
+import Nav from "./components/Nav/index.js";
 import { StoreProvider } from "./utils/GlobalState.js";
 import Success from "./pages/Success.js";
 import OrderHistory from "./pages/OrderHistory.js";
