@@ -6,7 +6,7 @@ import {
 	ApolloProvider,
 	createHttpLink,
 } from "@apollo/client";
-import { setContext } from "@apollo/client/link/context.js";
+import { setContext } from "@apollo/client/link/context";
 
 import Home from "./pages/Home.js";
 import Detail from "./pages/Detail.js";
