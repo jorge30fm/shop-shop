@@ -1,7 +1,7 @@
-const { AuthenticationError } = require('apollo-server-express');
-const { User, Product, Category, Order } = require('../models');
-const { signToken } = require('../utils/auth');
-const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
+import { AuthenticationError } from 'apollo-server-express';
+import { User, Product, Category, Order } from '../models';
+import { signToken } from '../utils/auth';
+import stripe from ('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
 
 const resolvers = {
   Query: {
@@ -140,4 +140,4 @@ const resolvers = {
   }
 };
 
-module.exports = resolvers;
+export default resolvers;

@@ -1,5 +1,5 @@
-const db = require('./connection');
-const { User, Product, Category } = require('../models');
+import db from ('./connection');
+import { User, Product, Category } from ('../models');
 
 db.once('open', async () => {
   await Category.deleteMany();
