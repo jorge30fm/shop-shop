@@ -1,6 +1,6 @@
-import User from ('./User');
-import Product from ('./Product');
-import Category from ('./Category');
-import Order from ('./Order');
+import User from './User.js';
+import Product from './Product.js';
+import Category from './Category.js';
+import Order from './Order.js';
 
 export { User, Product, Category, Order };

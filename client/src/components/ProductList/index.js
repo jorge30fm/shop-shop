@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import ProductItem from '../ProductItem';
-import { useStoreContext } from '../../utils/GlobalState';
-import { UPDATE_PRODUCTS } from '../../utils/actions';
+import ProductItem from '../ProductItem.js';
+import { useStoreContext } from '../../utils/GlobalState.js';
+import { UPDATE_PRODUCTS } from '../../utils/actions.js';
 import { useQuery } from '@apollo/client';
-import { QUERY_PRODUCTS } from '../../utils/queries';
-import { idbPromise } from '../../utils/helpers';
+import { QUERY_PRODUCTS } from '../../utils/queries.js';
+import { idbPromise } from '../../utils/helpers.js';
 import spinner from '../../assets/spinner.gif';
 
 function ProductList() {

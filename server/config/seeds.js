@@ -1,5 +1,5 @@
-import db from ('./connection');
-import { User, Product, Category } from ('../models');
+import db from './connection.js';
+import { User, Product, Category } from '../models.js';
 
 db.once('open', async () => {
   await Category.deleteMany();
