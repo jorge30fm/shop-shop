@@ -3,7 +3,7 @@ import { loadStripe } from '@stripe/stripe-js';
 import { useLazyQuery } from '@apollo/client';
 import { QUERY_CHECKOUT } from '../../utils/queries.js';
 import { idbPromise } from '../../utils/helpers.js';
-import CartItem from '../CartItem.js';
+import CartItem from '../CartItem/index.js';
 import Auth from '../../utils/auth.js';
 import { useStoreContext } from '../../utils/GlobalState.js';
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions.js';
