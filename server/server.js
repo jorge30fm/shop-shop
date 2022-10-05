@@ -1,4 +1,4 @@
-//// imports
+// imports
 import express from "express";
 import { ApolloServer } from "apollo-server-express";
 import { authMiddleware } from "./utils/auth.js";
