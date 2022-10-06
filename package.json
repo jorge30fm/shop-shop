@@ -21,7 +21,6 @@
   },
   "dependencies": {
     "http-proxy-middleware": "^2.0.6",
-
 		"dotenv": "^16.0.2"
   }
 }
