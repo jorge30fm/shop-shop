@@ -1,7 +1,6 @@
 import { AuthenticationError } from 'apollo-server-express';
 import { User, Product, Category, Order } from '../models.js';
 import { signToken } from '../utils/auth.js';
-import stripe from 'stripe';
 import Stripe from 'stripe';
 const stripe = new Stripe('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
 
