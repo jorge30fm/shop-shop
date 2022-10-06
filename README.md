@@ -43,7 +43,6 @@ Finally, to start the server on their localhost, the user will type:
 
 `npm run develop`
 
-The user can also go to PLACE DEPLOYED LINK HERE.
 
 ## Links
 
